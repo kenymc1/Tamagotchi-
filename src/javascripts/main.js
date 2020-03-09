@@ -1,16 +1,16 @@
 import 'bootstrap';
 import '../styles/main.scss';
-import eatButtons from './components/eat';
-import playButtons from './components/play';
-import sleepButtons from './components/sleep';
-import fightButtons from './components/fight';
-import makeMonster from './components/tamagotchi';
+import eat from './components/eat/eat';
+import play from './components/play/play';
+import sleep from './components/sleep   /sleep';
+import fight from './components/fight/fight';
+import makeMonster from './components/tamagotchi/tamagotchi';
 
 const init = () => {
-  eatButtons.eatButtons();
-  playButtons.playButtons();
-  fightButtons.fightButtons();
-  sleepButtons.sleepButtons();
+  eat.eatButtons();
+  play.playButtons();
+  fight.fightButtons();
+  sleep.sleepButtons();
   makeMonster.makeMonster();
 };
 
