@@ -1,16 +1,16 @@
 # tamagotchi-
 basic 8-bit game
 
-## Description
+## Description
 use this appication to select pizza topping s and get a final cost for your pizza ceation.
 
 ## Technology Used
 
-## Screenshots
+## Screenshots
 ![]
 
 
-## How to deploy
+## How to deploy
 * Clone down this project
 * Insall[ http-server](https://www.npmjs.com/)
 from npm
